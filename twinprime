@@ -1,4 +1,9 @@
- {
+import java.util.*;
+import java.util.Scanner;
+public class twin_prime
+{
+    static int prime(int num)
+    {
         int n=0,i;
         for(i=2;i<=num/2;i++)
         {
@@ -27,4 +32,3 @@
             }
         }
     }
-}
